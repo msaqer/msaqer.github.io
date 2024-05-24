@@ -1,0 +1,98 @@
+﻿body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 200px; /* Adjust width as necessary */
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 150px; /* Adjust size as necessary */
+    height: auto;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.profile-links a {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #D32F2F; /* Red color */
+    margin: 0;
+}
+
+    nav ul li {
+        padding: 10px 20px;
+    }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+            nav ul li a:hover, nav ul li a.active {
+                background-color: #FFEB3B; /* Yellow highlight */
+                color: black;
+                border-radius: 5px;
+            }
+
+section {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #D32F2F;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: block; /* Ensures each link is on a new line */
+    color: #555; /* Dark gray, easier on the eyes */
+    font-size: 14px; /* Smaller font size for better readability */
+    text-decoration: none; /* Removes underline from links */
+    margin: 10px 0; /* Adds space between links */
+}
+
+.social-links i {
+    margin-right: 5px;
+}
+
+.sidebar {
+    padding-left: 20px; /* More space from the left edge */
+}
+
