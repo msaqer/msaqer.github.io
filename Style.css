@@ -128,3 +128,25 @@ footer {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
 }
+
+#home {
+    background-color: #ffffff; /* White background for clarity */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: #333333; /* Dark grey for text for readability */
+}
+
+    #home h2 {
+        margin-bottom: 10px;
+    }
+
+    #home p {
+        font-size: 16px; /* Readable text size */
+        line-height: 1.6; /* Adequate line spacing for readability */
+        margin-bottom: 10px; /* Space between paragraphs */
+    }
+#home h2, #teaching h2, #publications h2, #awards h2, #services h2, #ai-explorations h2 {
+    color: #4CAF50; /* Green color for headings */
+}
