@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+# Disallow bots from specific directories
+Disallow: /private/
+Sitemap: https://msaqer.github.io/sitemap.xml
