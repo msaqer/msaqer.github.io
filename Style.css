@@ -138,14 +138,12 @@ footer {
     color: #333333; /* Dark grey for text for readability */
 }
 
- 
-
-    #home p {
-        font-size: 16px; /* Readable text size */
-        line-height: 1.6; /* Adequate line spacing for readability */
-        margin-bottom: 10px; /* Space between paragraphs */
-    }
-    #home h2, #teaching h2, #publications h2, #awards h2, #services h2, #ai-explorations h2 {
-        color: #4CAF50; /* Green color for headings */
-        margin-bottom: 10px;
-    }
+#home p {
+    font-size: 16px; /* Readable text size */
+    line-height: 1.6; /* Adequate line spacing for readability */
+    margin-bottom: 10px; /* Space between paragraphs */
+}
+#home h2, #teaching h2, #publications h2, #awards h2, #services h2, #ai-explorations h2 {
+    color: #4CAF50; /* Green color for headings */
+    margin-bottom: 10px;
+}
