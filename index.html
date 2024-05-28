@@ -38,11 +38,12 @@
             <header>
                 <nav>
                     <ul>
-                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#awards">Awards</a></li>
                         <li><a href="#publications">Publications</a></li>
                         <li><a href="#teaching">Teaching</a></li>
                         <li><a href="#services">Services</a></li>
+                        <li><a href="#ai-explorations">AI Explorations</a></li> <!-- New Tab -->
                     </ul>
                 </nav>
                 <h1>Muhammad Abusaqer</h1>
@@ -66,11 +67,11 @@
                     <li><strong>National Merit Scholarship</strong>: Awarded for exceptional academic achievements and potential, recognizing my status as a top scholar nationally.</li>
                 </ul>
                 <h3>Grants</h3>
-                <ul>                    
+                <ul>
                     <li><strong>Empower Grant, Minot State University (Spring 2023):</strong> The MSU Empower Grant is designed to enhance the academic experience at Minot State University by supporting initiatives that increase student enrollment and advance academic standards. More about the grant can be found <a href="https://www.minotstateu.edu/academic/EMPOWER-Grant.shtml?gad_source=1" target="_blank">here</a>. This grant has been instrumental in elevating the university's profile in cybersecurity education through practical activities of participation in the <a href="https://nationalcyberleague.org/competition">National Cyber League</a> competitions and hosting expert keynote speakers. My initiative is directed towards enhancing the Cybersecurity and Operations major within the Department of Math & Computer Science, providing students with hands-on experiences that are pivotal for professional success.</li>
                     <li><strong>Zamalah Grant, Bank of Palestine (Academic Year 2014/2015):</strong> This grant supports Palestinian academics in gaining international exposure and enhancing educational practices at Palestinian universities. Detailed information about the Zamalah Program can be found <a href="https://bop.ps/en/about/news/71" target="_blank">here</a>. I utilized this grant for my doctoral studies at Virginia Tech and then North Dakota State University, focusing on innovative technologies of AI.</li>
                     <li><strong>Fulbright Alumni Development Grant (Fall 2008):</strong> The Alumni Development Grant aids Fulbright alumni in furthering their educational and professional development. Learn more about this grant <a href="https://www.amideast.org/our-work/find-a-scholarship/graduate-study/fulbright/alumni-information/alumni-development-grants" target="_blank">here</a>. I leveraged this opportunity for a scholarly stay at the University of Illinois at Urbana-Champaign, where I specialized in Learning Management Systems to enhance educational methodologies.</li>
-                 </ul>
+                </ul>
             </section>
             <!-- Publications Section -->
             <section id="publications">
@@ -163,10 +164,47 @@
                     <li><strong>Faculty Recruitment</strong>: Participated in the recruitment process for new faculty members in 2012.</li>
                 </ul>
             </section>
+
+            <!-- AI Explorations Section -->
+            <section id="ai-explorations">
+                <h2>AI Explorations</h2>
+                <p>AI-enhanced Image Gallery: A showcase of images enhanced and transformed by AI, demonstrating the power of machine learning in visual arts.</p>
+                <div class="gallery">
+                    <h3>Original Picture</h3>
+                    <img src="img/original-image.jpg" alt="Original Picture" class="ai-image">
+
+                    <h3>AI Enhanced Pictures</h3>
+                    <div class="ai-gallery">
+                        <img src="img/Picture1.jpg" alt="AI Enhanced Image 1" class="ai-image">
+                        <img src="img/Picture2.jpg" alt="AI Enhanced Image 2" class="ai-image">
+                        <img src="img/Picture3.jpg" alt="AI Enhanced Image 3" class="ai-image">
+                        <img src="img/Picture4.jpg" alt="AI Enhanced Image 4" class="ai-image">
+                        <img src="img/Picture5.jpg" alt="AI Enhanced Image 5" class="ai-image">
+                        <img src="img/Picture6.jpg" alt="AI Enhanced Image 6" class="ai-image">
+                    </div>
+                </div>
+            </section>
+
+
+
         </div>
     </div>
     <footer>
         © 2024 Muhammad Abusaqer
     </footer>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const links = document.querySelectorAll('nav ul li a');
+        links.forEach(link => {
+            link.addEventListener('click', function() {
+                links.forEach(lnk => lnk.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    });
+    </script>
+
+
 </body>
 </html>
