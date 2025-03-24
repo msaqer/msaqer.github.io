@@ -143,7 +143,18 @@ footer {
     line-height: 1.6; /* Adequate line spacing for readability */
     margin-bottom: 10px; /* Space between paragraphs */
 }
-#home h2, #teaching h2, #publications h2, #awards h2, #services h2, #ai-explorations h2 {
-    color: #4CAF50; /* Green color for headings */
-    margin-bottom: 10px;
+    #home h2, #teaching h2, #awards h2, #services h2, #ai-explorations h2, #research h2 {
+        color: #4CAF50; /* Green color for headings */
+        margin-bottom: 10px;
+    }
+
+.pdf-link {
+    color: #D32F2F; /* A red shade for PDF links */
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 3px;
 }
+
+    .pdf-link i {
+        margin-right: 5px; /* Space between the icon and text */
+    }
