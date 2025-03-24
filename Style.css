@@ -158,3 +158,10 @@ footer {
     .pdf-link i {
         margin-right: 5px; /* Space between the icon and text */
     }
+
+.ai-fun-fact {
+    font-style: italic;
+    color: #555;
+    margin: 10px 0;
+}
+
