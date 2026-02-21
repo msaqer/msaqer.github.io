@@ -9,8 +9,64 @@
 
 <url>
   <loc>https://msaqer.github.io/</loc>
-  <lastmod>2025-03-25T02:10:31+00:00</lastmod>
+  <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   <priority>1.00</priority>
+</url>
+
+<url>
+  <loc>https://msaqer.github.io/research.html</loc>
+  <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://msaqer.github.io/publications.html</loc>
+  <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://msaqer.github.io/lab.html</loc>
+  <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://msaqer.github.io/datasets-tools.html</loc>
+  <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://msaqer.github.io/teaching.html</loc>
+  <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://msaqer.github.io/service.html</loc>
+  <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://msaqer.github.io/awards.html</loc>
+  <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://msaqer.github.io/ai-explorations.html</loc>
+  <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://msaqer.github.io/projects/ctgl.html</loc>
+  <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://msaqer.github.io/pdfs/Abusaqer_CV.pdf</loc>
+  <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://msaqer.github.io/pdfs/Comparative_Transformer_vs_ML_Cyberbullying_COMPSAC2025.pdf</loc>
+  <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://msaqer.github.io/pdfs/Global_Echoes_FIFA_MICS2024.pdf</loc>
@@ -107,6 +163,7 @@
   <lastmod>2025-03-25T02:10:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
 <url>
   <loc>https://msaqer.github.io/publications/general_interface_description.html</loc>
   <lastmod>2025-03-25T02:10:31+00:00</lastmod>
@@ -114,4 +171,10 @@
 </url>
 
 
+  <url>
+    <loc>https://msaqer.github.io/news.html</loc>
+  </url>
+  <url>
+    <loc>https://msaqer.github.io/publications.bib</loc>
+  </url>
 </urlset>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CyberTweetGrader&Labeler (CTGL): a domain-specific NLP tool to detect, grade, and prioritize social-media content relevant to cybersecurity incidents, demonstrated on the UHS healthcare ransomware case.">
+    <meta name="keywords" content="CyberTweetGrader&Labeler, CTGL, cybersecurity incident monitoring, healthcare ransomware, UHS, social media intelligence, security-aware NLP">
+    <title>CyberTweetGrader&Labeler (CTGL) | TLI Lab</title>
+    <link rel="stylesheet" href="../Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="../img/Muhamamd_Abusaqer_Image.png" alt="Muhammad Abusaqer" class="profile-pic">
+            <div class="header-text">
+                <h1>Muhammad Abusaqer</h1>
+                <p>Assistant Professor (tenure-track), Computer Science &amp; Cybersecurity<br>Minot State University</p>
+                <div class="social-links">
+                    <a href="mailto:Muhammad.Abusaqer@MinotStateU.edu"><i class="fas fa-envelope"></i> Email</a>
+                    <a href="https://scholar.google.com/citations?user=50zoBTMAAAAJ&hl=en" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+                    <a href="https://orcid.org/0009-0000-9705-0829" target="_blank" rel="noopener"><i class="ai ai-orcid"></i> ORCID</a>
+                    <a href="https://www.linkedin.com/in/msaqer/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://www.researchgate.net/profile/Muhammad-Abusaqer" target="_blank" rel="noopener"><i class="fab fa-researchgate"></i> ResearchGate</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../research.html">Research</a></li>
+                        <li><a href="../publications.html">Publications</a></li>
+                        <li><a class="active" href="../lab.html">TLI Lab</a></li>
+                        <li><a href="../datasets-tools.html">Datasets &amp; Tools</a></li>
+                        <li><a href="../teaching.html">Teaching</a></li>
+                        <li><a href="../service.html">Service</a></li>
+                        <li><a href="../awards.html">Awards</a></li>
+                        <li><a href="../ai-explorations.html">AI Explorations</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section class="hero">
+                <h2>CyberTweetGrader&amp;Labeler (CTGL)</h2>
+                <p class="tagline">
+                    A domain-specific NLP pipeline to <strong>detect</strong>, <strong>grade</strong>, and <strong>prioritize/label</strong> social-media posts related to cybersecurity incidents, demonstrated on the <strong>UHS healthcare ransomware</strong> case.
+                </p>
+                <div class="cta-row">
+                    <a class="btn btn-primary" href="../research.html"><i class="fas fa-compass"></i> Research context</a>
+                    <a class="btn btn-secondary" href="../datasets-tools.html"><i class="fas fa-database"></i> Dataset &amp; tools</a>
+                </div>
+            </section>
+
+            <section>
+                <h2>Motivation</h2>
+                <p>
+                    During major cyber incidents, social media can provide early signals, public impact reports, and rapid dissemination of updates. However, the stream is noisy and heterogeneous, making it hard to identify high-value content reliably. CTGL was designed to turn that stream into a structured, prioritized view of incident-relevant information.
+                </p>
+            </section>
+
+            <section>
+                <h2>What CTGL does</h2>
+                <ul>
+                    <li><strong>Incident-centric detection:</strong> identifies posts that are plausibly relevant to a specific cyber incident.</li>
+                    <li><strong>Relevance grading:</strong> assigns a relevance score using engineered feature groups that reflect incident context (e.g., organization-specific terms, cybersecurity indicators, warnings, media signals).</li>
+                    <li><strong>Prioritizing/labeling:</strong> converts scores to actionable relevance categories (e.g., High / Medium / Low / Irrelevant) to support triage and analysis.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>System overview</h2>
+                <figure class="figure">
+                    <img src="../img/ctgl_pipeline_placeholder.svg" alt="CTGL pipeline placeholder diagram" class="figure-img">
+                    <figcaption class="small-muted">Placeholder pipeline diagram. Replace this image with the final CTGL system diagram when ready.</figcaption>
+                </figure>
+            </section>
+
+            <section>
+                <h2>Dataset contribution</h2>
+                <p>
+                    CTGL is supported by a curated dataset of posts related to healthcare cyber incidents (with UHS as a primary case study). The dataset is being prepared for public release with documentation and reproducible preprocessing.
+                </p>
+                <p class="small-muted">
+                    If you prefer, this section can be updated to include a concrete release plan (what will be shared, what will be withheld, and under which license).
+                </p>
+            </section>
+
+            <section>
+                <h2>Evaluation &amp; comparison</h2>
+                <p>
+                    In addition to validating CTGL as a domain-specific tool, this research line includes empirical comparisons against traditional ML and transformer/LLM-based approaches, emphasizing not only predictive performance but also deployment-relevant considerations (cost, latency, and energy consumption where applicable).
+                </p>
+            </section>
+
+            <section>
+                <h2>Related publications</h2>
+                <ul>
+                    <li>
+                        <strong>Twitter User Sentiments Analysis: Health System Cyberattacks Case Study</strong> (ICAIIC 2023)
+                        — <a href="https://doi.org/10.1109/ICAIIC57133.2023.10067026" target="_blank" rel="noopener">DOI</a>
+                        | <a class="pdf-link" href="../pdfs/Twitter_User_Sentiments_Analysis_Health_System_Cyberattacks_Case_Study.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a>
+                        | <a href="../publications/twitter_user_sentiments.html">Details</a>
+                    </li>
+                    <li class="small-muted">
+                        Additional CTGL manuscripts (dataset paper, feature framework paper, and tool-utility paper) are listed under “Submitted / In Preparation” on the Publications page.
+                    </li>
+                </ul>
+            </section>
+
+            <footer>
+                <p>&copy; 2026 Muhammad Abusaqer</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

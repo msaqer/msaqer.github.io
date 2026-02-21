@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Datasets and tools from the Trustworthy Language Intelligence Lab: CyberTweetGrader&Labeler (CTGL), planned UHS ransomware incident Twitter/X dataset release, and reproducible benchmarking assets.">
+    <meta name="keywords" content="cybersecurity dataset, UHS ransomware Twitter dataset, CTGL, reproducible NLP, benchmarking, Green NLP">
+    <title>Datasets &amp; Tools | Muhammad Abusaqer</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="sidebar">
+        <img src="img/Muhamamd_Abusaqer_Image.png" alt="Muhammad Abusaqer" class="profile-pic">
+        <div class="header-text">
+            <h1>Muhammad Abusaqer</h1>
+            <p>Assistant Professor (tenure-track), Computer Science &amp; Cybersecurity<br>Minot State University</p>
+            <div class="social-links">
+                <a href="mailto:Muhammad.Abusaqer@MinotStateU.edu"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://scholar.google.com/citations?user=50zoBTMAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+                <a href="https://orcid.org/0009-0000-9705-0829" target="_blank"><i class="ai ai-orcid"></i> ORCID</a>
+                <a href="https://www.linkedin.com/in/msaqer/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://www.researchgate.net/profile/Muhammad-Abusaqer" target="_blank" rel="noopener"><i class="fab fa-researchgate"></i> ResearchGate</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="lab.html">TLI Lab</a></li>
+                        <li><a href="datasets-tools.html">Datasets &amp; Tools</a></li>
+                        <li><a href="teaching.html">Teaching</a></li>
+                        <li><a href="service.html">Service</a></li>
+                        <li><a href="awards.html">Awards</a></li>
+                        <li><a href="ai-explorations.html">AI Explorations</a></li>
+                    </ul>
+                </nav>
+        </header>
+
+        <section class="hero">
+            <h2>Datasets &amp; Tools</h2>
+            <p class="tagline">
+                The TLI Lab emphasizes <strong>reproducible research artifacts</strong>—datasets, scripts, and evaluation assets that support reliable comparisons of <strong>traditional ML</strong>, <strong>transformers</strong>, and <strong>LLMs</strong>.
+            </p>
+        </section>
+
+        <section>
+            <h3>CyberTweetGrader&amp;Labeler (CTGL)</h3>
+            <p>
+                CTGL is a domain-specific NLP pipeline for <strong>incident-centric social-media triage</strong>. It supports relevance scoring and prioritization of posts related to cybersecurity incidents, with a focus on healthcare and critical-infrastructure contexts.
+            </p>
+            <p>
+                <a class="btn btn-secondary" href="projects/ctgl.html"><i class="fas fa-diagram-project"></i> CTGL Project Page</a>
+            </p>
+        </section>
+
+        <section>
+            <h3>Planned Dataset Release</h3>
+            <div class="cards">
+                <div class="card">
+                    <h4>UHS 2020 Ransomware Incident (Twitter/X)</h4>
+                    <p>
+                        Curated posts around the 2020 Universal Health Services (UHS) ransomware incident, with collection protocols, ethics notes, and incident-response utility documentation.
+                    </p>
+                    <p class="small-muted">
+                        Status: planned public release after manuscript acceptance / final packaging.
+                    </p>
+                </div>
+                <div class="card">
+                    <h4>Benchmarking Assets</h4>
+                    <p>
+                        Reusable evaluation scripts and reporting templates for comparing ML baselines vs fine-tuned encoders vs prompted LLM inference under fixed partitions, including efficiency and deployment constraints.
+                    </p>
+                    <p class="small-muted">
+                        Status: maintained internally; publishable artifact package in progress.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>What Will Be Included (Artifact Checklist)</h3>
+            <ul>
+                <li><strong>Dataset schema</strong> and documentation (fields, provenance, de-identification notes where applicable)</li>
+                <li><strong>Collection protocol</strong> and filtering/cleaning scripts</li>
+                <li><strong>Annotation guidelines</strong> (where used) and quality checks</li>
+                <li><strong>Reproducible evaluation</strong>: splits, metrics, and reporting tables</li>
+                <li><strong>Efficiency reporting</strong> hooks (latency/cost/energy where feasible)</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Muhammad Abusaqer</p>
+        </footer>
+    </div>
+
+            <footer class="site-footer">
+                <p>Last updated: Feb 2026</p>
+            </footer>
+        </div>
+
+    </div>
+<script>
+      (function () {
+        try {
+          const path = (window.location.pathname || '').split('/').pop() || 'index.html';
+          const navLinks = document.querySelectorAll('header nav a');
+          navLinks.forEach(a => {
+            const href = a.getAttribute('href');
+            if (href === path) a.classList.add('active');
+          });
+        } catch (e) {}
+      })();
+    </script>
+</body>
+</html>

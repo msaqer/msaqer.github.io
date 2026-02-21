@@ -165,3 +165,253 @@ footer {
     margin: 10px 0;
 }
 
+/* ==============================
+   2026 refresh: hero, cards, CTA
+   (lightweight; keeps your theme)
+================================*/
+
+.hero {
+    padding: 22px;
+    border-left: 6px solid #D32F2F;
+}
+
+.tagline {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 8px 0 0 0;
+}
+
+.subtagline {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    color: #444;
+    line-height: 1.5;
+}
+
+.badge-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: #f3f3f3;
+    border: 1px solid #e2e2e2;
+    font-size: 12px;
+    color: #333;
+}
+
+.cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+
+.btn-primary {
+    background: #D32F2F;
+    color: #fff;
+}
+
+.btn-secondary {
+    background: #fff;
+    color: #D32F2F;
+    border-color: #D32F2F;
+}
+
+.btn:hover {
+    opacity: 0.92;
+}
+
+.small-muted {
+    font-size: 12px;
+    color: #666;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 14px;
+    margin-top: 12px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 14px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+.card h3, .card h4 {
+    margin: 0 0 8px 0;
+}
+
+.card p {
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.list-compact li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.pub {
+    margin-bottom: 14px;
+    line-height: 1.55;
+}
+
+.pub-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #D32F2F;
+}
+
+.pub-note {
+    margin-top: 4px;
+    color: #444;
+    font-size: 13px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+    margin-top: 12px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+    margin: 0 0 8px 0;
+    color: #2e7d32;
+}
+
+.card p {
+    margin: 0;
+    line-height: 1.55;
+}
+
+.muted {
+    color: #555;
+}
+
+.list-tight li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* Better mobile behavior for the sidebar */
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .profile-pic {
+        width: 110px;
+        margin: 14px auto 6px auto;
+        display: block;
+    }
+
+    .header-text {
+        text-align: center;
+        padding: 0 12px 10px 12px;
+    }
+
+    .social-links a {
+        display: inline-flex;
+        margin: 6px 8px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+/* Lab page: compact year grouping + topic tags */
+.year-header {
+    margin-top: 14px;
+    margin-bottom: 6px;
+    font-size: 1.05rem;
+}
+
+.topic-tag {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 0.82rem;
+    line-height: 1.4;
+    border: 1px solid rgba(0,0,0,0.12);
+    background: rgba(0,0,0,0.03);
+}
+
+
+/* Footer */
+.site-footer{
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  font-size: 0.9rem;
+  color: #555;
+}
+.site-footer p{ margin: 0; }
+
+/* Nav active state (set via JS for consistency across pages) */
+header nav a.active{
+  font-weight: 700;
+  border-bottom: 2px solid rgba(0,0,0,0.35);
+}
